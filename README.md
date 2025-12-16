@@ -10,7 +10,7 @@ Focuses on enhancing English language skills required for academic studies.
 ### ISDM - Information Systems & Data Modeling
 Covers concepts related to information systems, database design, and data modeling techniques.
 
-### IWT - Internet & Web Technologies (IT1100)
+### IWT - Internet & Web Technologies
 Introduction to web development technologies including HTML, CSS, JavaScript, and PHP.
 *   **Lectures**: Course materials and slides.
 *   **Labsheets**: Practical exercises.
@@ -27,10 +27,3 @@ Fundamentals of Object-Oriented Programming (OOP) using C++.
 ### SPM - Software Project Management
 Introduction to principles and practices of managing software projects.
 
-## Directory Structure
-
-The repository is organized by subject code. Each subject folder typically contains subdirectories for:
-*   `Lecture Slides` / `PDFs`
-*   `Labsheets`
-*   `Tutorials`
-*   `Assignments`
