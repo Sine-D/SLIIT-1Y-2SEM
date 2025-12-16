@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 100px;
+    padding: 100px;
+    margin-left: 200px;
+    margin-top: -20px;
+   
+  }
+  .btn-primary2{
+    background-color: rgb(77, 131, 185);
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+  }
+
+  .btn-primary{
+    background-color: rgb(77, 131, 185);
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+  }
+.btn-primary1{
+    background-color: rgb(196, 37, 53);
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -75px;
+    color: #000000;
+    text-decoration: double;
+  }
+  
+  table {
+    
+    width: 100%;
+  }
+  
+   td {
+    border: 5px solid ;
+    background-color: rgb(140, 152, 163);
+    padding: 10px;
+    text-align: left;
+    font-weight:bold;
+    size: 100px;
+  }
+  th{border: 5px solid ;
+    background-color: rgb(151, 151, 151);
+    padding: 10px;
+    text-align: left;
+    font-weight:bold;}
+  
+ 
+  
+  .add-user-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .update-btn {
+    background-color: #008CBA;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: 1350px;
+    z-index: -1;
+    background-size: cover;
+    object-fit: cover;
+    background-color: #767779;
+    opacity: 100%;
+}
+  
+ 

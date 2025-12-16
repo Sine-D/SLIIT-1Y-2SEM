@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/about-us.css">
+	<link rel="stylesheet" href="Header and footer/Style2.css">
+</head>
+<body>
+
+<!-- Header Section -->
+    <header class="header">
+        <!-- Logo Section -->
+        <div class="lg">
+            <img src="Header and footer/Logo (1).jpg" alt="Logo">
+        </div>
+
+        <!-- Navigation Links -->
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li>
+                    <a>Our Services</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Wheel Alignment</a></li>
+                        <li><a href="#">Engine Service</a></li>
+                        <li><a href="#">Interior Services</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!-- Search Box -->
+        <div class="search-box">
+            <input type="text" placeholder="Search..">
+        </div>
+        <div class="User"><img src="Header and footer/UP.png" alt="up"></div>
+    </header>
+
+
+
+    <!-- Main Content -->	
+    <main>
+        <!-- Your main content goes here -->
+    </main>
+	<div class="color"> 
+    <div class="about-container">
+        <h1>ABOUT US</h1><hr color = "red" size="2px"><br><br><br>
+
+        <!-- Grid for content boxes -->
+        <div class="content-grid">
+            <div class="box">
+                <h3>Head Office</h3>
+				<img src="img/branch.png" width="80px" height="80px">
+                <p>Greetings from Luxury Motor Solutions' headquarters, where style and innovation collide. Our headquarters, which is centrally located in "Colombo 7, Sri Lanka," is the center for state-of-the-art automotive technology and unmatched customer service. Our team of devoted experts is committed to providing custom motor solutions that satisfy our clients' discriminating needs. From the first stages of design to the last handover, we guarantee that every little thing is painstakingly made to go above and beyond. We at Luxury Motor Solutions develop experiences that are the epitome of luxury, performance, and elegance in addition to building automobiles.</p>
+            </div>
+            <div class="box">
+                <h3>Our Branches</h3>
+				<img src="img/branches.png" width="80px" height="80px">
+                <p>At Luxury Motor Solutions, we take great satisfaction in having branches in important cities all over the world. Every branch serves as a symbol of our dedication to quality, providing the same unmatched customer care and cutting-edge solutions that make us stand out. Our locations, which are located in both the calm streets of Tokyo and the busy streets of New York, are furnished with cutting-edge amenities and manned by a team of committed specialists. Our branches are prepared to provide you with the best levels of elegance and performance, whether you're looking for a custom motor solution or want skilled maintenance. Come see us at any of our locations to see what makes Luxury Motor Solutions unique.</p>
+            </div>
+            <div class="box">
+                <h3>Our Services</h3>
+				<img src="img/services.png" width="80px" height="80px">
+                <p>Our whole range of services at elegance Motor Solutions are created to satisfy the highest requirements for performance and elegance. Modern production, specialized after-sales service, and unique vehicle design are all part of our bespoke motor solutions. Our team of knowledgeable experts is committed to providing quality at every turn, whether you're searching for a one-of-a-kind luxury car or want professional maintenance and upgrades. Additionally, we offer premium concierge services to make sure your interaction with us is smooth and customized to your particular requirements. With our unmatched services, experience the height of luxury in cars.</p>
+            </div>
+            <div class="box">
+                <h3>Service Stations</h3>
+				<img src="img/stations.png" width="80px" height="80px">
+                <p>Our dedication to quality at Luxury Motor Solutions goes beyond the showroom. Our cutting-edge service centers are positioned thoughtfully to offer thorough and convenient maintenance and repair services. Every service facility has the newest diagnostic equipment and is manned by highly skilled mechanics with a focus on premium cars. Whether your automobile needs simple fixes, intricate maintenance, or custom enhancements, our service centers make sure it gets the careful attention it needs. </p>
+            </div>
+            <div class="box">
+                <h3>Achievements</h3>
+				<img src="img/achieve.png" width="80px" height="80px">
+                <p>We at Luxury Motor Solutions are incredibly proud of our path toward innovation and excellence. We have received several awards and industry recognitions throughout the years, which highlights our dedication to excellence and client satisfaction. Our custom cars have garnered recognition for their performance and design at international auto exhibitions, as well as features in esteemed automotive publications. We have also made great progress toward sustainability by incorporating state-of-the-art green technology into our production procedures. These accomplishments demonstrate our steadfast commitment to pushing the envelope of performance and elegance and establishing new benchmarks within the automobile sector.</p>
+            </div>
+            <div class="box">
+                <h3>Our History</h3>
+				<img src="img/history.png" width="80px" height="80px">
+                <p>Since its founding, Luxury Motor Solutions has led the way in innovation and quality, driven by the goal of redefining luxury in the automobile sector. Our adventure started in 2003 when a group of enthusiastic engineers and designers joined together to provide custom motor solutions that satisfy the pickiest customers. We have increased our presence around the world over the years and built a solid reputation for our superior craftsmanship and state-of-the-art technologies. From our initial ground-breaking model to our most recent cutting-edge automobiles, our history is characterized by an unwavering quest for excellence and a dedication to providing an amazing driving experience. Come along with us as we continue to push the limits of performance and elegance.</p>
+            </div>
+        </div>
+    </div>
+	</div>
+	
+	<!-- Footer Section -->
+   <footer>
+    <div class="footer-container">
+        <div class="contact-info">
+            <h3>Have a Problem?</h3>
+            <p>
+                <a href="tel:+94747725466"><i class="fas fa-phone"></i> 0747725466</a><br>
+                <a href="mailto:motorsolutions@gmail.com"><i class="fas fa-envelope"></i>
+                    motorsolutions@gmail.com</a>
+            </p>
+        </div>
+        <div class="social-media">
+            <ul>
+                <li>
+                    <div class="fb"><img src="Header and footer/fb.jpg" alt="#"></div>
+                </li>
+                
+                <li>
+                    <div class="insta"><img src="Header and footer/insta.png" alt="#"></div>
+                </li>
+
+                <li>
+                    <div class="twi"><img src="Header and footer/twi.jpg" alt="#"></div>
+                <li>
+
+                    <div class="lin"><img src="Header and footer/lin.jpg" alt="#"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="navigation">
+            <div class="Link"><p><center>Links</center></p></div><br>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Privacy and Policy</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p><center>&copy; 2024 Luxury Motor Solutions. All rights reserved.</center></p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

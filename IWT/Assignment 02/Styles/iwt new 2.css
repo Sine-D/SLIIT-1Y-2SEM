@@ -1,0 +1,131 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1600px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.policy-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.policy-item {
+    height: 170px;
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.policy-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.policy-item h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    
+}
+
+.policy-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.main{
+    width: 100%;
+    height: 350px;
+}
+
+.h2 {
+    padding: 20px;
+    text-align: center;
+    color: #333;}
+
+.inquiryForm{
+    align-items: center;
+    margin-left:30%;
+}
+
+.form-container{
+    margin-top: 20px;
+}
+
+textarea {
+    width: 60%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+#responseMessage {
+    margin-top: 10px;
+    font-style: italic;
+    color: #777;
+}
+
+input{
+    width: 60%;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+button[type="submit"] {
+    background-color: #45b1f0;
+    color: white;
+    width: 60%;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}

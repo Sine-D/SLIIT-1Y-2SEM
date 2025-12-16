@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Create Account</title> 
+  <link rel="stylesheet" href="style1.css"> 
+ </head> 
+ <body> 
+  <div class="form-container"> 
+   <h1>Create a new account</h1> 
+   <p>Already have an account? <a href="login.html">Log in</a></p> 
+
+   <form id="signup-form" action="./insert.inc.php" method="POST">
+
+    <label for="first-name">&nbsp;&nbsp;User Name</label>
+    <input type="text" id="first-name" name="name" required>
+    <span id="name-error" class="error"></span>
+
+    <label for="email">&nbsp;&nbsp;Email</label>
+    <input type="email" id="email" name="email" required>
+    <span id="email-error" class="error"></span>
+
+    <label for="password">&nbsp;&nbsp;Password</label>
+    <input type="password" id="password" name="password" required>
+    <span id="password-error" class="error"></span>
+
+    <div class="terms">
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the terms and conditions</label>
+    </div>
+    <span id="terms-error" class="error"></span>
+
+    <button type="submit">Sign Up</button>
+</form>
+
+   <div class="footer"> 
+     <span><a href="iwt2.html">Privacy and Policy</a></span> 
+      
+   </div> 
+  </div> 
+  <script src="script2.js"></script>  
+ </body>
+</html>

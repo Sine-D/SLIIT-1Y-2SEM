@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="Bck.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="contact-form">
+        <h2>Got Engine Troubles? Ask Your Questions and Get Help!</h2>
+        <div class="container">
+            <form name="custom_form" action="create.php" method="POST" onsubmit="return validForm()">
+                <div class="form_box">
+                    <div class="input-row">
+                        <input type="text" placeholder="Name*" name="name">
+                        <span class="error" style="display:none;">Please Enter Your name</span>
+                    </div>
+                    <div class="input-row">
+                        <input type="text" placeholder="Engine Number*" name="num">
+                        <span class="error" style="display:none;">Please Enter Engine Number</span>
+                    </div>
+                    <div class="input-row">
+                        <input type="text" placeholder="Email*" name="email">
+                        <span class="error" style="display:none;">Please Enter Your Email</span>
+                    </div>
+                    <div class="input-row">
+                        <input type="text" placeholder="Vehicle Name*" name="vehicle">
+                        <span class="error" style="display:none;">What is Your Vehicle Name?</span>
+                    </div>
+                    <div class="input-row">
+                        <textarea placeholder="Your Trouble*" name="message"></textarea>
+                        <span class="error" style="display:none;">What is Your Trouble?</span>
+                    </div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="Form.js"></script>
+</body>
+
+</html>

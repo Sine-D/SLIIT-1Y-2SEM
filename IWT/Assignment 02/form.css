@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f0f0f0;
+}
+
+.contact-form {
+    position: relative;
+    z-index: 2;
+    width: 600px;
+    background: rgba(255, 255, 255, 0.85); 
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); 
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form_box {
+    width: 100%;
+    align-items: center;
+    background: #e8e8e8;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-row {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.form_box input:not([type="submit"]),
+.form_box textarea,
+.form_box select {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.form_box input:not([type="submit"]):focus,
+.form_box textarea:focus,
+.form_box select:focus {
+    border-color: #888;
+    outline: none;
+}
+
+.form_box input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    color: #fff;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form_box input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+span.error {
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    color: red;
+    display: none;
+}
+
+    #background-video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%; 
+      min-height: 100%;
+      width: 1350px;
+      z-index: -1;
+      background-size: cover;
+      object-fit: cover;
+      background-color: #767779;
+      opacity: 60%;
+  }
+.error{
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    color: red;
+}

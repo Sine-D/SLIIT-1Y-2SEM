@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="login.css">
+  
+</head> 
+<body>
+        <!-- Header Section -->
+        <header class="header">
+            <!-- Logo Section -->
+            <div class="lg">
+                <img src="images/Logo (1).jpg" alt="Logo">
+            </div>
+    
+            <!-- Navigation Links -->
+            <nav>
+                <ul class="menu">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li>
+                        <a>Our Services</a>
+                        <ul class="dropdown">
+                            <li><a href="iwt.html">Wheel Alignment</a></li>
+                            <li><a href="Engine_Service.html">Engine Service</a></li>
+                            <li><a href="Interior Service.html">Interior Services</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact-us.php">Contact Us</a></li>
+                </ul>
+            </nav>
+            
+            <div class="search-box">
+                <input type="text" placeholder="Search..">
+            </div>
+            <div class="User"><a href="userprofile.html"><img src="images/UP.png" alt="up"></a></div>
+        </header>
+    
+    <div class="form-body">
+        <form action="get" method="post" id="form"> 
+            <div class="form">
+                <h1 class="form-text">Hello User !!!</h1>
+                <h3>Log in to your account</h3>
+                <img src="images/car-alt_7433806.png" alt="car" class="form-vec">
+                <div class="form-con"> 
+                    <input type="text" placeholder="Username" id="username" required>
+                    <br>
+                  
+                    <input type="password" placeholder="Password" id="pass" required>
+                    <br>
+                    <span id = "error"></span>
+                    <div class="re-checkbox">
+                        <input type="checkbox" id="remember">
+                        <label for="remember" class="checkbox-text">Remember me</label>
+                        <a href="#" class="f-pass">Forgot password?</a> 
+                </div>
+                    <div class="login-but">
+                        <button type="submit">Login</button> 
+                    </div>
+                    <div class="form-bottom">
+                        <span>Don't have an account?</span>
+                        <a href="sign up.html">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="contact-info">
+                <h3>Have a Problem?</h3>
+                <p>
+                    <a href="tel:+94747725466"><i class="fas fa-phone"></i> 0747725466</a><br>
+                    <a href="mailto:motorsolutions@gmail.com"><i class="fas fa-envelope"></i>
+                        motorsolutions@gmail.com</a>
+                </p>
+            </div>
+            <div class="social-media">
+                <ul>
+                    <li>
+                        <div class="fb"><img src="images/fb.jpg" alt="#"></div>
+                    </li>
+                    
+                    <li>
+                        <div class="insta"><img src="images/insta.png" alt="#"></div>
+                    </li>
+    
+                    <li>
+                        <div class="twi"><img src="images/twi.jpg" alt="#"></div>
+                    <li>
+    
+                        <div class="lin"><img src="images/lin.jpg" alt="#"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="navigation">
+                <div class="Link"><p>Links</p></div><br>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="iwt2.html">Privacy and Policy</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Luxury Motor Solutions. All rights reserved.</p>
+                <ul>
+                    <li><a href="iwt2.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+        
+        <script src="JS/scriptS.js"></script>
+
+</body>
+</html>

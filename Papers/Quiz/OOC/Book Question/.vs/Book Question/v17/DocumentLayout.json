@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Study \u0026 Others\\SLIIT\\My Career\\1st year 2nd sem\\Papers\\Quiz\\OOC\\Book Question\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Study \u0026 Others\\SLIIT\\My Career\\1st year 2nd sem\\Papers\\Quiz\\OOC\\Book Question\\Book Question\\Book Question.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Question\\Book Question.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Study \u0026 Others\\SLIIT\\My Career\\1st year 2nd sem\\Papers\\Quiz\\OOC\\Book Question\\Book Question\\Book.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Question\\Book.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Study \u0026 Others\\SLIIT\\My Career\\1st year 2nd sem\\Papers\\Quiz\\OOC\\Book Question\\Book Question\\Book.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Question\\Book.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Book Question.cpp",
+              "DocumentMoniker": "E:\\Study \u0026 Others\\SLIIT\\My Career\\1st year 2nd sem\\Papers\\Quiz\\OOC\\Book Question\\Book Question\\Book Question.cpp",
+              "RelativeDocumentMoniker": "Book Question\\Book Question.cpp",
+              "ToolTip": "E:\\Study \u0026 Others\\SLIIT\\My Career\\1st year 2nd sem\\Papers\\Quiz\\OOC\\Book Question\\Book Question\\Book Question.cpp",
+              "RelativeToolTip": "Book Question\\Book Question.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-25T09:54:12.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cpp",
+              "DocumentMoniker": "E:\\Study \u0026 Others\\SLIIT\\My Career\\1st year 2nd sem\\Papers\\Quiz\\OOC\\Book Question\\Book Question\\Book.cpp",
+              "RelativeDocumentMoniker": "Book Question\\Book.cpp",
+              "ToolTip": "E:\\Study \u0026 Others\\SLIIT\\My Career\\1st year 2nd sem\\Papers\\Quiz\\OOC\\Book Question\\Book Question\\Book.cpp",
+              "RelativeToolTip": "Book Question\\Book.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-25T09:54:12.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Book.h",
+              "DocumentMoniker": "E:\\Study \u0026 Others\\SLIIT\\My Career\\1st year 2nd sem\\Papers\\Quiz\\OOC\\Book Question\\Book Question\\Book.h",
+              "RelativeDocumentMoniker": "Book Question\\Book.h",
+              "ToolTip": "E:\\Study \u0026 Others\\SLIIT\\My Career\\1st year 2nd sem\\Papers\\Quiz\\OOC\\Book Question\\Book Question\\Book.h",
+              "RelativeToolTip": "Book Question\\Book.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-25T09:54:12.029Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

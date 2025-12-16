@@ -1,0 +1,272 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* Header Styles */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.lg img{
+    width: 100px;
+    border-radius: 100px;
+}
+
+/* Logo */
+.User img{
+    margin: 40px;
+    bottom: 20px;
+    width: 75px;
+}
+
+/* Navigation Bar Styles */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 4px;
+}
+
+.menu li a:hover {
+    background-color: #a39d9d;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    background-color: #989898;
+    border: 1px solid #8a8a8a;
+    display: none; 
+}
+
+.dropdown li {
+    margin: 0;
+}
+
+.dropdown li a {
+    padding: 6px;
+    display: block;
+    white-space: nowrap;
+	font-size:20px;
+	font-family:American Typewriter, serif;
+}
+
+.menu li:hover .dropdown {
+    display: block; 
+}
+
+/* Search Box Styles */
+.search-box {
+    position:relative;
+}
+
+.search-box input[type="text"] {
+    padding: 8px 15px;
+    width: 500px;
+    border: none;
+    border-radius: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #817b7b;
+    padding: 20px 30px;
+    margin-top: 40px; 
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.contact-info {
+    flex: 1 1 200px;
+    margin-bottom: 20px;
+}
+
+.contact-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fffdfd;
+}
+
+.contact-info p a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: color 0.3s;
+}
+
+.contact-info p a:hover {
+    color: #04AA6D; 
+}
+
+/* Social Media Section */
+.social-media {
+    flex: 1 1 200px;
+    margin-bottom: 20px;
+}
+.fb img{
+    width: 48px;
+    border-radius: 20%;
+}
+.insta img{
+    width: 46px;
+    border-radius: 20%;
+}
+.twi img{
+    width: 46px;
+    border-radius: 20%;
+}
+.lin img{
+    width: 46px;
+    border-radius: 20%;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media ul li a {
+    font-size: 20px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.social-media ul li a:hover {
+    color: #04AA6D;
+}
+
+/* Navigation Links in Footer */
+.navigation {
+    flex: 1 1 200px;
+    margin-bottom: 20px;
+}
+.navigation .Link{
+    text-align: center;
+}
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.navigation ul li a:hover {
+    color: #04AA6D;
+}
+
+.copyright {
+    flex: 1 1 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.copyright p {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #04AA6D;
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        flex-wrap: wrap;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-box {
+        margin-top: 10px;
+    }
+
+    footer .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-media ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .navigation ul li {
+        display: block;
+        margin: 5px ;
+    }
+}
+

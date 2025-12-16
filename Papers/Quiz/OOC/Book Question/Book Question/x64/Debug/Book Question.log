@@ -1,0 +1,4 @@
+﻿Book.obj : error LNK2005: "public: void __cdecl Book::displayBookDetails(void)" (?displayBookDetails@Book@@QEAAXXZ) already defined in Book Question.obj
+Book.obj : error LNK2005: "public: void __cdecl Book::setBookDetails(char const * const,char const * const)" (?setBookDetails@Book@@QEAAXQEBD0@Z) already defined in Book Question.obj
+Book.obj : error LNK2005: "public: void __cdecl Book::setBookID(int)" (?setBookID@Book@@QEAAXH@Z) already defined in Book Question.obj
+C:\Users\Malki\OneDrive\Desktop\2nd Sem\2022 Jan Batch my\Ooc\Spot test\Book Question\x64\Debug\Book Question.exe : fatal error LNK1169: one or more multiply defined symbols found

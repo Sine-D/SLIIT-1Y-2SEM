@@ -1,0 +1,5 @@
+﻿  Salesman Question.cpp
+C:\Users\Malki\OneDrive\Desktop\2nd Sem\2022 Jan Batch my\Ooc\Spot test\Salesman Question\Salesman Question\Salesman Question.cpp(13,38): warning C4305: 'argument': truncation from 'int' to 'float'
+C:\Users\Malki\OneDrive\Desktop\2nd Sem\2022 Jan Batch my\Ooc\Spot test\Salesman Question\Salesman Question\Salesman Question.cpp(16,38): warning C4305: 'argument': truncation from 'int' to 'float'
+C:\Users\Malki\OneDrive\Desktop\2nd Sem\2022 Jan Batch my\Ooc\Spot test\Salesman Question\Salesman Question\Salesman Question.cpp(19,38): warning C4305: 'argument': truncation from 'int' to 'float'
+  Salesman Question.vcxproj -> C:\Users\Malki\OneDrive\Desktop\2nd Sem\2022 Jan Batch my\Ooc\Spot test\Salesman Question\x64\Debug\Salesman Question.exe
